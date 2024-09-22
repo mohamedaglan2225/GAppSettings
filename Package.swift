@@ -14,13 +14,9 @@ let package = Package(
             name: "GAppSettings",
             targets: ["GAppSettings"]),
     ],
-    dependencies: [
-        // Add any package dependencies here if needed.
-    ],
     targets: [
         .target(
             name: "GAppSettings",
-            dependencies: [],
             path: "Sources"), // Ensure you specify the correct path to your sources if needed.
         .testTarget(
             name: "GAppSettingsTests",
